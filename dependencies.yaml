@@ -386,7 +386,7 @@ dependencies:
           # - cuda-version=12.8 ##
           - *cudf
           - cupy # Version determined from cudf
-          - datacompy=0.10
+          - datacompy=0.13.1
           - dill=0.3.7
           - docker-py=5.0
           - elasticsearch==8.9.0
@@ -501,7 +501,7 @@ dependencies:
           - *nodejs
           - boto3=1.35
           - kfp
-          - papermill=2.4.0
+          - papermill=2.6.0
           - s3fs=2024.10
           - pip
           - pip:
@@ -539,7 +539,7 @@ dependencies:
           - pip:
             - --find-links https://data.dgl.ai/wheels/cu121/repo.html
             - --find-links https://data.dgl.ai/wheels-test/repo.html
-            - dgl==2.0.0
+            - dgl==2.1.0
             - dglgo
 
   example-abp-nvsmi:
